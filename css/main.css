@@ -20,6 +20,7 @@ html {
 
 .grains img {
   width: 100px;
+  float: left;
 }
 
 .grains h2 {
