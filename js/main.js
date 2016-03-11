@@ -11,12 +11,12 @@ grains.forEach(function (grain) {
   var $li = $('<li>');
 
   $img.attr('src', 'images/' + grain.img);
-  $name.html(grain.name);
-  $desc.html(grain.desc);
+  $h2.html(grain.h2);
+  $p.html(grain.p);
 
   $li.append($img);
-  $li.append($name);
-  $li.append($desc);
+  $li.append($h2);
+  $li.append($p);
   $ul.append($li);
 
 });
